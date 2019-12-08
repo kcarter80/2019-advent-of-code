@@ -29,7 +29,7 @@ for (let y = 0; y < height; y++) {
 	for (let x = 0; x < width; x++) {
 		for (let i = 0; i < layers.length; i++) {
 			if (layers[i][x][y] != 2) {
-				output += layers[i][x][y] == 0 ? ' ':'1';
+				output += layers[i][x][y] == 0 ? ' ':'█';
 				break;
 			}
 		}
